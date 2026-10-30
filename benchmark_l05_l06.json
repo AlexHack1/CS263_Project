@@ -1,0 +1,806 @@
+{
+  "Course/L05_ComprehensiveRecap.lean": {
+    "runs": [
+      {
+        "is_warmup": true,
+        "wall_ms": 247880.1,
+        "metrics": {
+          "import": 192000.0,
+          "elaboration": 1120.0
+        }
+      },
+      {
+        "is_warmup": false,
+        "wall_ms": 59752.466699981596,
+        "metrics": {
+          "attribute application": 3.23,
+          "blocked (unaccounted)": 522.0,
+          "compilation (IR)": 18.5,
+          "compilation (LCNF base)": 215.0,
+          "compilation (LCNF impure)": 99.1,
+          "compilation (LCNF mono)": 143.0,
+          "congr simp thm": 414.0,
+          "dsimp": 2.92,
+          "elaboration": 1020.0,
+          "fix level params": 2.68,
+          "grind": 46.1,
+          "grind ac": 0.017,
+          "grind cutsat": 8.16,
+          "grind ematch": 1.01,
+          "grind linarith": 0.0092,
+          "grind mark subsingleton": 3.69,
+          "grind ring": 0.0659,
+          "grind simp": 67.9,
+          "import": 6200.0,
+          "initialization": 37.9,
+          "instantiate metavars": 5.24,
+          "interpretation": 16000.0,
+          "let-to-have transformation": 2.73,
+          "linting": 148.0,
+          "module linting": 0.018,
+          "overlappingInstancesLinter": 229.0,
+          "parsing": 85.7,
+          "process pre-definitions": 281.0,
+          "share common exprs": 27.5,
+          "simp": 10800.0,
+          "sym canon": 6.99,
+          "sym typeclass inference": 7.2,
+          "tactic execution": 11100.0,
+          "tacticAnalysis": 624.0,
+          "type checking": 843.0,
+          "typeclass inference": 13400.0
+        }
+      },
+      {
+        "is_warmup": false,
+        "wall_ms": 60228.9301000128,
+        "metrics": {
+          "attribute application": 3.22,
+          "blocked (unaccounted)": 512.0,
+          "compilation (IR)": 17.8,
+          "compilation (LCNF base)": 227.0,
+          "compilation (LCNF impure)": 110.0,
+          "compilation (LCNF mono)": 134.0,
+          "congr simp thm": 419.0,
+          "dsimp": 2.92,
+          "elaboration": 1060.0,
+          "fix level params": 2.61,
+          "grind": 62.0,
+          "grind ac": 0.019,
+          "grind cutsat": 9.69,
+          "grind ematch": 1.16,
+          "grind linarith": 0.0098,
+          "grind mark subsingleton": 4.65,
+          "grind ring": 0.102,
+          "grind simp": 76.2,
+          "import": 6340.0,
+          "initialization": 37.5,
+          "instantiate metavars": 8.95,
+          "interpretation": 17300.0,
+          "let-to-have transformation": 2.9,
+          "linting": 174.0,
+          "module linting": 0.0077,
+          "overlappingInstancesLinter": 215.0,
+          "parsing": 89.9,
+          "process pre-definitions": 317.0,
+          "share common exprs": 30.7,
+          "simp": 10900.0,
+          "sym canon": 7.84,
+          "sym typeclass inference": 7.92,
+          "tactic execution": 10600.0,
+          "tacticAnalysis": 575.0,
+          "type checking": 1040.0,
+          "typeclass inference": 13200.0
+        }
+      },
+      {
+        "is_warmup": false,
+        "wall_ms": 56880.12560000061,
+        "metrics": {
+          "attribute application": 3.77,
+          "blocked (unaccounted)": 543.0,
+          "compilation (IR)": 20.4,
+          "compilation (LCNF base)": 225.0,
+          "compilation (LCNF impure)": 111.0,
+          "compilation (LCNF mono)": 152.0,
+          "congr simp thm": 373.0,
+          "dsimp": 1.55,
+          "elaboration": 1130.0,
+          "fix level params": 2.84,
+          "grind": 39.5,
+          "grind ac": 0.0153,
+          "grind cutsat": 6.56,
+          "grind ematch": 0.885,
+          "grind linarith": 0.0217,
+          "grind mark subsingleton": 3.27,
+          "grind ring": 0.0569,
+          "grind simp": 57.7,
+          "import": 6560.0,
+          "initialization": 43.0,
+          "instantiate metavars": 5.0,
+          "interpretation": 17900.0,
+          "let-to-have transformation": 4.59,
+          "linting": 181.0,
+          "module linting": 0.0085,
+          "overlappingInstancesLinter": 276.0,
+          "parsing": 102.0,
+          "process pre-definitions": 356.0,
+          "share common exprs": 33.6,
+          "simp": 10100.0,
+          "sym canon": 5.9,
+          "sym typeclass inference": 6.53,
+          "tactic execution": 8690.0,
+          "tacticAnalysis": 726.0,
+          "type checking": 938.0,
+          "typeclass inference": 12200.0
+        }
+      }
+    ],
+    "summary": {
+      "wall_ms_mean": 58953.84079999834,
+      "wall_ms_stdev": 1811.6223091247612,
+      "categories": {
+        "attribute application": {
+          "mean_ms": 3.4066666666666667,
+          "stdev_ms": 0.3146956201368766,
+          "runs_ms": [
+            3.23,
+            3.22,
+            3.77
+          ]
+        },
+        "blocked (unaccounted)": {
+          "mean_ms": 525.6666666666666,
+          "stdev_ms": 15.821925715074425,
+          "runs_ms": [
+            522.0,
+            512.0,
+            543.0
+          ]
+        },
+        "compilation (IR)": {
+          "mean_ms": 18.9,
+          "stdev_ms": 1.34536240470737,
+          "runs_ms": [
+            18.5,
+            17.8,
+            20.4
+          ]
+        },
+        "compilation (LCNF base)": {
+          "mean_ms": 222.33333333333334,
+          "stdev_ms": 6.429100507328637,
+          "runs_ms": [
+            215.0,
+            227.0,
+            225.0
+          ]
+        },
+        "compilation (LCNF impure)": {
+          "mean_ms": 106.7,
+          "stdev_ms": 6.600757532283703,
+          "runs_ms": [
+            99.1,
+            110.0,
+            111.0
+          ]
+        },
+        "compilation (LCNF mono)": {
+          "mean_ms": 143.0,
+          "stdev_ms": 9.0,
+          "runs_ms": [
+            143.0,
+            134.0,
+            152.0
+          ]
+        },
+        "congr simp thm": {
+          "mean_ms": 402.0,
+          "stdev_ms": 25.238858928247925,
+          "runs_ms": [
+            414.0,
+            419.0,
+            373.0
+          ]
+        },
+        "dsimp": {
+          "mean_ms": 2.4633333333333334,
+          "stdev_ms": 0.7909698687897873,
+          "runs_ms": [
+            2.92,
+            2.92,
+            1.55
+          ]
+        },
+        "elaboration": {
+          "mean_ms": 1070.0,
+          "stdev_ms": 55.67764362830022,
+          "runs_ms": [
+            1020.0,
+            1060.0,
+            1130.0
+          ]
+        },
+        "fix level params": {
+          "mean_ms": 2.71,
+          "stdev_ms": 0.11789826122551592,
+          "runs_ms": [
+            2.68,
+            2.61,
+            2.84
+          ]
+        },
+        "grind": {
+          "mean_ms": 49.2,
+          "stdev_ms": 11.565898149300814,
+          "runs_ms": [
+            46.1,
+            62.0,
+            39.5
+          ]
+        },
+        "grind ac": {
+          "mean_ms": 0.0171,
+          "stdev_ms": 0.0018520259177452134,
+          "runs_ms": [
+            0.017,
+            0.019,
+            0.0153
+          ]
+        },
+        "grind cutsat": {
+          "mean_ms": 8.136666666666667,
+          "stdev_ms": 1.5651304524969583,
+          "runs_ms": [
+            8.16,
+            9.69,
+            6.56
+          ]
+        },
+        "grind ematch": {
+          "mean_ms": 1.0183333333333333,
+          "stdev_ms": 0.1376892636821525,
+          "runs_ms": [
+            1.01,
+            1.16,
+            0.885
+          ]
+        },
+        "grind linarith": {
+          "mean_ms": 0.013566666666666666,
+          "stdev_ms": 0.007050059101407118,
+          "runs_ms": [
+            0.0092,
+            0.0098,
+            0.0217
+          ]
+        },
+        "grind mark subsingleton": {
+          "mean_ms": 3.87,
+          "stdev_ms": 0.707389567353096,
+          "runs_ms": [
+            3.69,
+            4.65,
+            3.27
+          ]
+        },
+        "grind ring": {
+          "mean_ms": 0.07493333333333332,
+          "stdev_ms": 0.023868458964359913,
+          "runs_ms": [
+            0.0659,
+            0.102,
+            0.0569
+          ]
+        },
+        "grind simp": {
+          "mean_ms": 67.26666666666667,
+          "stdev_ms": 9.266246992894876,
+          "runs_ms": [
+            67.9,
+            76.2,
+            57.7
+          ]
+        },
+        "import": {
+          "mean_ms": 6366.666666666667,
+          "stdev_ms": 181.47543451754933,
+          "runs_ms": [
+            6200.0,
+            6340.0,
+            6560.0
+          ]
+        },
+        "initialization": {
+          "mean_ms": 39.46666666666667,
+          "stdev_ms": 3.06648550189518,
+          "runs_ms": [
+            37.9,
+            37.5,
+            43.0
+          ]
+        },
+        "instantiate metavars": {
+          "mean_ms": 6.3966666666666665,
+          "stdev_ms": 2.214505211855084,
+          "runs_ms": [
+            5.24,
+            8.95,
+            5.0
+          ]
+        },
+        "interpretation": {
+          "mean_ms": 17066.666666666668,
+          "stdev_ms": 971.253485622231,
+          "runs_ms": [
+            16000.0,
+            17300.0,
+            17900.0
+          ]
+        },
+        "let-to-have transformation": {
+          "mean_ms": 3.4066666666666667,
+          "stdev_ms": 1.0283157751067196,
+          "runs_ms": [
+            2.73,
+            2.9,
+            4.59
+          ]
+        },
+        "linting": {
+          "mean_ms": 167.66666666666666,
+          "stdev_ms": 17.3877351409933,
+          "runs_ms": [
+            148.0,
+            174.0,
+            181.0
+          ]
+        },
+        "module linting": {
+          "mean_ms": 0.0114,
+          "stdev_ms": 0.005729746940310714,
+          "runs_ms": [
+            0.018,
+            0.0077,
+            0.0085
+          ]
+        },
+        "overlappingInstancesLinter": {
+          "mean_ms": 240.0,
+          "stdev_ms": 31.953090617340916,
+          "runs_ms": [
+            229.0,
+            215.0,
+            276.0
+          ]
+        },
+        "parsing": {
+          "mean_ms": 92.53333333333333,
+          "stdev_ms": 8.463056973300683,
+          "runs_ms": [
+            85.7,
+            89.9,
+            102.0
+          ]
+        },
+        "process pre-definitions": {
+          "mean_ms": 318.0,
+          "stdev_ms": 37.5099986670221,
+          "runs_ms": [
+            281.0,
+            317.0,
+            356.0
+          ]
+        },
+        "share common exprs": {
+          "mean_ms": 30.6,
+          "stdev_ms": 3.0512292604784723,
+          "runs_ms": [
+            27.5,
+            30.7,
+            33.6
+          ]
+        },
+        "simp": {
+          "mean_ms": 10600.0,
+          "stdev_ms": 435.88989435406734,
+          "runs_ms": [
+            10800.0,
+            10900.0,
+            10100.0
+          ]
+        },
+        "sym canon": {
+          "mean_ms": 6.91,
+          "stdev_ms": 0.9724710792614861,
+          "runs_ms": [
+            6.99,
+            7.84,
+            5.9
+          ]
+        },
+        "sym typeclass inference": {
+          "mean_ms": 7.216666666666667,
+          "stdev_ms": 0.6951498639382253,
+          "runs_ms": [
+            7.2,
+            7.92,
+            6.53
+          ]
+        },
+        "tactic execution": {
+          "mean_ms": 10130.0,
+          "stdev_ms": 1271.8883598806933,
+          "runs_ms": [
+            11100.0,
+            10600.0,
+            8690.0
+          ]
+        },
+        "tacticAnalysis": {
+          "mean_ms": 641.6666666666666,
+          "stdev_ms": 77.03462424996525,
+          "runs_ms": [
+            624.0,
+            575.0,
+            726.0
+          ]
+        },
+        "type checking": {
+          "mean_ms": 940.3333333333334,
+          "stdev_ms": 98.52072539995497,
+          "runs_ms": [
+            843.0,
+            1040.0,
+            938.0
+          ]
+        },
+        "typeclass inference": {
+          "mean_ms": 12933.333333333334,
+          "stdev_ms": 642.9100507328636,
+          "runs_ms": [
+            13400.0,
+            13200.0,
+            12200.0
+          ]
+        }
+      }
+    }
+  },
+  "Course/L06_FP_Primer.lean": {
+    "runs": [
+      {
+        "is_warmup": true,
+        "wall_ms": 26414.9,
+        "metrics": {
+          "import": 7190.0,
+          "elaboration": 184.0
+        }
+      },
+      {
+        "is_warmup": false,
+        "wall_ms": 23822.72570001078,
+        "metrics": {
+          "attribute application": 0.799,
+          "blocked (unaccounted)": 276.0,
+          "compilation (IR)": 4.64,
+          "compilation (LCNF base)": 64.4,
+          "compilation (LCNF impure)": 24.3,
+          "compilation (LCNF mono)": 34.4,
+          "congr simp thm": 10.1,
+          "elaboration": 179.0,
+          "fix level params": 0.633,
+          "import": 7030.0,
+          "initialization": 47.8,
+          "instantiate metavars": 0.957,
+          "interpretation": 13900.0,
+          "let-to-have transformation": 0.402,
+          "linting": 34.4,
+          "module linting": 0.0135,
+          "overlappingInstancesLinter": 191.0,
+          "parsing": 16.7,
+          "process pre-definitions": 78.1,
+          "share common exprs": 3.41,
+          "simp": 181.0,
+          "tactic execution": 298.0,
+          "tacticAnalysis": 390.0,
+          "type checking": 211.0,
+          "typeclass inference": 1490.0
+        }
+      },
+      {
+        "is_warmup": false,
+        "wall_ms": 24493.989299982786,
+        "metrics": {
+          "attribute application": 0.791,
+          "blocked (unaccounted)": 216.0,
+          "compilation (IR)": 5.08,
+          "compilation (LCNF base)": 77.0,
+          "compilation (LCNF impure)": 28.0,
+          "compilation (LCNF mono)": 42.3,
+          "congr simp thm": 9.86,
+          "elaboration": 180.0,
+          "fix level params": 0.6,
+          "import": 7220.0,
+          "initialization": 58.5,
+          "instantiate metavars": 0.886,
+          "interpretation": 14000.0,
+          "let-to-have transformation": 0.491,
+          "linting": 31.7,
+          "module linting": 0.0065,
+          "overlappingInstancesLinter": 77.5,
+          "parsing": 16.3,
+          "process pre-definitions": 89.4,
+          "share common exprs": 3.37,
+          "simp": 177.0,
+          "tactic execution": 232.0,
+          "tacticAnalysis": 158.0,
+          "type checking": 224.0,
+          "typeclass inference": 1210.0
+        }
+      },
+      {
+        "is_warmup": false,
+        "wall_ms": 25407.72729998571,
+        "metrics": {
+          "attribute application": 0.678,
+          "blocked (unaccounted)": 210.0,
+          "compilation (IR)": 4.82,
+          "compilation (LCNF base)": 58.8,
+          "compilation (LCNF impure)": 24.5,
+          "compilation (LCNF mono)": 34.0,
+          "congr simp thm": 8.67,
+          "elaboration": 158.0,
+          "fix level params": 0.791,
+          "import": 6410.0,
+          "initialization": 38.3,
+          "instantiate metavars": 0.769,
+          "interpretation": 15500.0,
+          "let-to-have transformation": 0.423,
+          "linting": 30.3,
+          "module linting": 0.0132,
+          "overlappingInstancesLinter": 135.0,
+          "parsing": 14.9,
+          "process pre-definitions": 65.1,
+          "share common exprs": 2.75,
+          "simp": 172.0,
+          "tactic execution": 273.0,
+          "tacticAnalysis": 193.0,
+          "type checking": 168.0,
+          "typeclass inference": 1430.0
+        }
+      }
+    ],
+    "summary": {
+      "wall_ms_mean": 24574.81409999309,
+      "wall_ms_stdev": 795.5859502299558,
+      "categories": {
+        "attribute application": {
+          "mean_ms": 0.756,
+          "stdev_ms": 0.06766830868286867,
+          "runs_ms": [
+            0.799,
+            0.791,
+            0.678
+          ]
+        },
+        "blocked (unaccounted)": {
+          "mean_ms": 234.0,
+          "stdev_ms": 36.49657518178932,
+          "runs_ms": [
+            276.0,
+            216.0,
+            210.0
+          ]
+        },
+        "compilation (IR)": {
+          "mean_ms": 4.846666666666667,
+          "stdev_ms": 0.22120880030716095,
+          "runs_ms": [
+            4.64,
+            5.08,
+            4.82
+          ]
+        },
+        "compilation (LCNF base)": {
+          "mean_ms": 66.73333333333333,
+          "stdev_ms": 9.32165936587115,
+          "runs_ms": [
+            64.4,
+            77.0,
+            58.8
+          ]
+        },
+        "compilation (LCNF impure)": {
+          "mean_ms": 25.6,
+          "stdev_ms": 2.080865204668481,
+          "runs_ms": [
+            24.3,
+            28.0,
+            24.5
+          ]
+        },
+        "compilation (LCNF mono)": {
+          "mean_ms": 36.9,
+          "stdev_ms": 4.680811895387379,
+          "runs_ms": [
+            34.4,
+            42.3,
+            34.0
+          ]
+        },
+        "congr simp thm": {
+          "mean_ms": 9.543333333333333,
+          "stdev_ms": 0.7657893531078459,
+          "runs_ms": [
+            10.1,
+            9.86,
+            8.67
+          ]
+        },
+        "elaboration": {
+          "mean_ms": 172.33333333333334,
+          "stdev_ms": 12.42309676905615,
+          "runs_ms": [
+            179.0,
+            180.0,
+            158.0
+          ]
+        },
+        "fix level params": {
+          "mean_ms": 0.6746666666666666,
+          "stdev_ms": 0.10208982972526372,
+          "runs_ms": [
+            0.633,
+            0.6,
+            0.791
+          ]
+        },
+        "import": {
+          "mean_ms": 6886.666666666667,
+          "stdev_ms": 423.5957192103496,
+          "runs_ms": [
+            7030.0,
+            7220.0,
+            6410.0
+          ]
+        },
+        "initialization": {
+          "mean_ms": 48.199999999999996,
+          "stdev_ms": 10.10593884802397,
+          "runs_ms": [
+            47.8,
+            58.5,
+            38.3
+          ]
+        },
+        "instantiate metavars": {
+          "mean_ms": 0.8706666666666667,
+          "stdev_ms": 0.09493330992509072,
+          "runs_ms": [
+            0.957,
+            0.886,
+            0.769
+          ]
+        },
+        "interpretation": {
+          "mean_ms": 14466.666666666666,
+          "stdev_ms": 896.2886439832502,
+          "runs_ms": [
+            13900.0,
+            14000.0,
+            15500.0
+          ]
+        },
+        "let-to-have transformation": {
+          "mean_ms": 0.43866666666666665,
+          "stdev_ms": 0.04652239604033021,
+          "runs_ms": [
+            0.402,
+            0.491,
+            0.423
+          ]
+        },
+        "linting": {
+          "mean_ms": 32.13333333333333,
+          "stdev_ms": 2.0840665376454104,
+          "runs_ms": [
+            34.4,
+            31.7,
+            30.3
+          ]
+        },
+        "module linting": {
+          "mean_ms": 0.011066666666666666,
+          "stdev_ms": 0.0039576929306520655,
+          "runs_ms": [
+            0.0135,
+            0.0065,
+            0.0132
+          ]
+        },
+        "overlappingInstancesLinter": {
+          "mean_ms": 134.5,
+          "stdev_ms": 56.751651958335096,
+          "runs_ms": [
+            191.0,
+            77.5,
+            135.0
+          ]
+        },
+        "parsing": {
+          "mean_ms": 15.966666666666667,
+          "stdev_ms": 0.9451631252505214,
+          "runs_ms": [
+            16.7,
+            16.3,
+            14.9
+          ]
+        },
+        "process pre-definitions": {
+          "mean_ms": 77.53333333333333,
+          "stdev_ms": 12.15990679788844,
+          "runs_ms": [
+            78.1,
+            89.4,
+            65.1
+          ]
+        },
+        "share common exprs": {
+          "mean_ms": 3.1766666666666667,
+          "stdev_ms": 0.3700450423034112,
+          "runs_ms": [
+            3.41,
+            3.37,
+            2.75
+          ]
+        },
+        "simp": {
+          "mean_ms": 176.66666666666666,
+          "stdev_ms": 4.509249752822894,
+          "runs_ms": [
+            181.0,
+            177.0,
+            172.0
+          ]
+        },
+        "tactic execution": {
+          "mean_ms": 267.6666666666667,
+          "stdev_ms": 33.321664624285106,
+          "runs_ms": [
+            298.0,
+            232.0,
+            273.0
+          ]
+        },
+        "tacticAnalysis": {
+          "mean_ms": 247.0,
+          "stdev_ms": 125.07197927593535,
+          "runs_ms": [
+            390.0,
+            158.0,
+            193.0
+          ]
+        },
+        "type checking": {
+          "mean_ms": 201.0,
+          "stdev_ms": 29.30870177950569,
+          "runs_ms": [
+            211.0,
+            224.0,
+            168.0
+          ]
+        },
+        "typeclass inference": {
+          "mean_ms": 1376.6666666666667,
+          "stdev_ms": 147.42229591663988,
+          "runs_ms": [
+            1490.0,
+            1210.0,
+            1430.0
+          ]
+        }
+      }
+    }
+  }
+}
